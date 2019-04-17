@@ -1,6 +1,6 @@
 {
-  "name": "react-data-grid",
-  "version": "6.0.1",
+  "name": "@fereactproject/react-data-grid-no-style",
+  "version": "1.0.1",
   "description": "Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
   "scripts": {
     "beforepublish": "node ../../ci/publish/replacePackageEntry react-data-grid true",
@@ -11,10 +11,11 @@
     "react",
     "react-data-grid",
     "data-grid",
+	"react-data-grid-no-style",
     "core"
   ],
-  "repository": "adazzle/react-data-grid",
-  "author": "Adazzle",
+  "repository": "fereactproject/react-data-grid",
+  "author": "FM",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.0.0",
@@ -27,5 +28,8 @@
     "object-assign": "^4.1.1",
     "react-is-deprecated": "^0.1.2",
     "shallowequal": "^1.1.0"
+  },
+  "publishConfig": {
+	"access": "public"
   }
 }
