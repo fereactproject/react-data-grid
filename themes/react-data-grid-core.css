@@ -5,16 +5,11 @@
 }
 
 .react-grid-Main {
-  background-color: #ffffff;
-  color: inherit;
   padding: 0px;
-  outline: 1px solid #e7eaec;
   clear : both;
 }
 
 .react-grid-Grid {
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -23,6 +18,3 @@
   user-select: none;
 }
 
-.react-grid-Canvas {
-  background-color: #ffffff;
-}
