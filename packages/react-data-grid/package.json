@@ -1,6 +1,6 @@
 {
   "name": "@fereactproject/react-data-grid-no-style",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
   "scripts": {
     "beforepublish": "node ../../ci/publish/replacePackageEntry react-data-grid true",
